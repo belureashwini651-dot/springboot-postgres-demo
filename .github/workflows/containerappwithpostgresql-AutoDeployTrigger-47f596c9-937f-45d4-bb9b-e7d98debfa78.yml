@@ -42,7 +42,7 @@ jobs:
           registryPassword: ${{ secrets.CONTAINERAPPWITHPOSTGRESQL_REGISTRY_PASSWORD }}
           containerAppName: containerappwithpostgresql
           resourceGroup: userapplictionconainerapp
-          imageToBuild: belureashwini651-dot/containerappwithpostgresql:${{ github.sha }}
+          imageToBuild: ashwinibelure12/springboot-postgres-app:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
